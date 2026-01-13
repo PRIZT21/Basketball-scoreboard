@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    background-color: #182042;
+    color: #ffffff;
+    font-family: poppins;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.score-holder{
+    background-color: #090000;
+    color: #FA4460;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    font-family: DigitalFont;
+    width: 200px;
+    height: 150px;
+    font-size: 60px;
+    text-align: center;
+
+}
+
+@font-face{
+    src: url("./font/DS-DIGI.ttf");
+    font-family: DigitalFont;
+}
+
+.increment-btn{
+    font-family: DigitalFont;
+    background-color: #182042;
+    color: #676F92;
+    border: 2px solid #676F92;
+    border-radius: 4px;
+    /* padding: 5px 6px; */
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    text-align: center;
+
+}
+
+.scoreboard-holder{
+    text-align: center;
+}
